@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>AI world national anthem</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>AI world national anthem generator</h1>
+      </header>
+
+      <main>
+        <div class="form-container">
+          <form id="anthem-generator-form">
+            <input
+              type="text"
+              autofocus
+              required
+              placeholder="Enter the topic of the anthem"
+              autocomplete="off"
+              ;
+              class="instructions"
+              id="user-instructions"
+            />
+
+            <input type="Submit" class="submit_button" />
+          </form>
+        </div>
+        <div class="hint">i.e: RSA, USA</div>
+        <div class="anthem hidden" id="anthem"></div>
+      </main>
+
+      <footer>
+        This AI world national anthem was coded by
+        <a href="https://github.com/thabisilem68-maker/" target="_blank">
+          Thabisile M</a
+        >
+        and is
+        <a href="" target="_blank"> open-sourced on Github</a>
+        and is <a href=""> Hosted on Netlify. </a>
+      </footer>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
